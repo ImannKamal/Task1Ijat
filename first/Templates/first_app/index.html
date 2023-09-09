@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First App</title>
+    <link rel='stylesheet' href="{% static "css/style.css" %}"/>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="logo">
+        <span class="iman">PRIMA</span><span class="soft">XOFT</span>
+    </header>
+    <p> PrimaXoft will be coming soon... </p>
+    <img src="{% static 'images/imanndp.PNG' %}" alt="Image Description">
+    {{ insert_me }}
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <!-- Include Tailwind CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css">
+</head>
+<body class="bg-purple-600 text-white p-4">
+    <div class="container mx-auto mt-8">
+        <h2 class="text-3xl font-bold mb-4">Dashboard</h2>
+        <p>Hello, {{ user.username }}!</p>
+        <a href="{% url 'logout_success' %}" class="text-blue-400 hover:underline mt-2">Logout</a>
+    </div>
+</body>
+</html>
